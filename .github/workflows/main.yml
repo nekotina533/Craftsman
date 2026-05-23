@@ -55,7 +55,7 @@ jobs:
           docker run -d \
             --name=playit \
             --net=host \
-            -e SECRET_KEY=6d0615844adfcc7f2bd89a75d44504c48aaab7c23c0ca4aa1ead3e3ac665a8b7 \
+            -e SECRET_KEY=d35f6bcacc6598fced4b739d9c5c0df6c0b7909d73445238d9de127c11f0e373 \
             ghcr.io/playit-cloud/playit-agent:0.17
           
           echo "✅ TÚNEL CONECTADO. EL SERVIDOR YA ESTÁ ABIERTO PARA TODOS."

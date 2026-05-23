@@ -83,7 +83,7 @@ jobs:
           
           # 5. Conectar Tailscale
           curl -fsSL https://tailscale.com/install.sh | sh
-          sudo tailscale up --authkey=tskey-auth-kCxCNvJST811CNTRL-XTonMx8eTw3YNvyQgS7Vw3vJvFpcVmSG --hostname=Infinix-VPS --ssh
+          sudo tailscale up --authkey=tskey-auth-kj81yXmYdu11CNTRL-mT422M3PiwZJCr1uofDiwZSa8mhNoSny --hostname=Host
           
           tailscale ip -4 > ts_ip.txt
 
